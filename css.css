@@ -1,0 +1,103 @@
+body {
+    overflow: auto;
+    margin: 0px;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+ul {
+    display: flex;
+    justify-content: right;
+}
+li {
+    margin: 10px;
+    display: inline;
+}
+.chearch {
+    margin: 10px 20px;
+    border: 1px solid rgb(181, 201, 221);
+    border-radius: 30px;
+    width: 550px;
+    height: 45px;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    border-color: lightgreen;
+    opacity: 0,1;
+}
+button {
+    font-size: 20px;
+    margin: 20px;
+    padding: 1px;
+}
+.li {
+    top: 10px;
+    padding: 10px;
+    height: 40px;
+    background-color: rgb(208, 212, 218);
+}
+.right {
+    display: inline;
+    float: right;
+    padding: 10px;
+}
+.left {
+    display: inline;
+    float: left;
+    padding: 10px;
+}
+.bottom {
+    position: absolute;
+    bottom: 1;
+    width: 100%;
+    background-color: rgb(208, 212, 218);
+}
+li:hover {
+    color: steelblue;
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+}
+#wrap {
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    margin: 20px;
+}
+.connection {
+    background-color: rgb(9, 121, 212);
+    margin: 20px;
+    width: 120px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.connection:hover {
+    color: lightseagreen;
+}
+.a {
+    position: absolute;
+}
+
+.b {
+    position: relative;
+    top: -46px;
+    left: 30px;
+    width: 32px;
+    height: 32px;
+}
+
+.c {
+    position: relative;
+    top: -35px;
+    right: -495px;
+    width: 32px;
+    height: 32px;
+}
+hr {
+    bottom: 10px;
+}

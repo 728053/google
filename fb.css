@@ -1,0 +1,75 @@
+body {
+    background-color: white;
+    margin: 0 auto;
+    overflow: scroll;
+    color: #202124;
+    overflow-x: hidden;
+}
+.img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 120px;
+}
+.border {
+    background-color: rgb(231, 229, 229);
+    border-radius: 10px;
+    padding: 15px 15px;
+    margin: 10px 220px;
+    width: 360px 300px;
+    height: 320px;
+    float: right;
+}
+.flex {
+    display: inline-flex;
+}
+#connecter {
+   background-color: rgb(77, 245, 77);
+   width: 240px;
+   height: 50px;
+   padding: 20px;
+   margin: 10px 60px;
+}
+#connecté {
+    height: 50px;
+    width: 350px;
+    padding: 10px;
+    margin: 8px;
+    background-color:  rgb(46, 140, 248);
+}
+.aaa {
+    text-align: center;
+}
+input {
+    border-radius: 6px;
+    border: blue;
+    padding: 18px;
+    margin: 5px;
+    width: 320px;
+}
+.imageba {
+    padding: 1px;
+    font-size: 20px;
+}
+hr {
+    margin: 20px;
+    color: cornflowerblue;
+    
+}
+.bottom {
+    flex-direction: column;
+}
+li {
+    display: block;
+    font-size: 14px;
+    padding-left: 230px;
+
+}
+.a {
+    position: absolute;
+}
+.b {
+    position: relative;
+    top: -20px;
+    right: -40px;
+}
